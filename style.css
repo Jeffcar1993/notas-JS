@@ -1,0 +1,90 @@
+h1 {
+margin: 10px, auto;    
+padding: 10px 15px 10px 15px;
+color: rgb(140, 138, 138);
+font-family: "Teko", sans-serif;
+font-size: 56px;
+
+
+
+}
+
+body {
+
+width: 800px;
+margin: 20px auto;
+background-color: rgb(235, 227, 217);
+font-family: "Roboto", sans-serif;
+color: rgb(64, 63, 63);
+font-size: 20px;
+
+
+
+}
+
+.align {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+input {
+    margin: 20px 90px;
+    padding: 35px 70px ;
+    border-radius: 8px;
+    border-color: darkgray;
+    background-color: rgb(217, 214, 211);
+
+}
+
+.green {
+
+    padding: 5px 5px;
+    margin: 10px 190px;
+    border-radius: 6px;
+    background-color: rgb(235, 227, 217);
+    color:green;
+    border-color: green;
+    font-family:"Roboto", sans-serif;
+    font-size: 16px;
+}
+
+button {
+
+    padding: 5px 5px;
+    margin: 10px 20px;
+    border-radius: 6px;
+    background-color: rgb(235, 227, 217);
+    color:crimson;
+    border-color: crimson;
+    font-family:"Roboto", sans-serif;
+
+    display: block;
+
+}
+
+li {
+
+    color: darkgreen;
+
+border: 1px;
+border-style:solid;
+border-radius: 10px;
+border-color: dimgray;
+margin: 10px 20px;
+padding: 10px 10px;
+
+width: 350px;
+}
+
+ol {
+    display: grid;
+    grid-template-columns: 55% 55%;
+}
+
+li:hover {
+border: 1px solid red;
+}
